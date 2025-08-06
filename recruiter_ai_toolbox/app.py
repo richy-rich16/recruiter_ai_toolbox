@@ -5,7 +5,8 @@ from tools.email_generator import generate_email
 
 st.set_page_config(page_title="Recruiter AI Toolbox", layout="centered")
 
-st.title("🧠 Recruiter AI Toolbox (Groq Powered)")
+st.title("🧠 Recruiter AI Toolbox")
+st.subheader("Interactive AI tools built for recruiters — summarizer, email drafts, and info extraction.")
 
 task = st.sidebar.selectbox("Select Task", ["Summarize Text", "Extract Info", "Generate Email"])
 
